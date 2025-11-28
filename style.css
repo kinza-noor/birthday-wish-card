@@ -1,0 +1,37 @@
+body{
+    background-image:url(./download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wish{
+    text-align: center;
+    color: rgb(54, 10, 36);
+    font-family: monospace;
+    margin: 15px 20px 35px 100px;
+    border-radius: 5%;
+    padding: 50px;
+    font-size: 20px;
+    background-color: rgba(122, 171, 194, 0.342);
+}
+
+img{
+    height: 410px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 20px 10px 30px 60px;
+    filter: grayscale();
+
+}
+img:hover{
+    filter: none;
+}
+.container{
+    display: flex;
+    margin: 120px;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
